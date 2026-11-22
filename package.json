@@ -1,0 +1,26 @@
+{
+  "name": "copbank",
+  "version": "1.0.0",
+  "description": "Projeto de banco digital ficticio, sendo uma aplicação WEB.",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "node --watch --env-file=.env app.js",
+    "start": "node --env-file=.env app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhosefer-Ps/CopBank.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jhosefer-Ps/CopBank/issues"
+  },
+  "homepage": "https://github.com/Jhosefer-Ps/CopBank#readme",
+  "dependencies": {
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6"
+  }
+}
