@@ -1,0 +1,7 @@
+# Evita de passar coisas inuteis como até mesmo dados sensiveis como rede.
+
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
